@@ -24,13 +24,31 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
+  - id: nju-itxia-cn # unique identifier
+    name: nju.itxia.cn
+    description: 'IT-xia Forever!' # default=empty
+    url: 'https://nju.itxia.cn/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: nju-mirrors # unique identifier
+    name: mirrors.nju.edu.cn
+    description: 'NJU Open Source Mirror' # default=empty
+    url: 'https://mirrors.nju.edu.cn/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
   - id: minaduki-logistics # unique identifier
     name: v4.logistics.minaduki.cn
     description: 'Minaduki Logistics remote access gateway.' # default=empty
     url: 'https://v4.logistics.minaduki.cn:5555/' # URL to fetch
     method: GET # default=GET
     expectStatus: 202 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true      
     
   - id: sub-con # unique identifier
@@ -40,15 +58,15 @@ monitors:
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true    
+    linkable: flase # allows the title to be a link, default=true    
 
-  - id: bill-ds # unique identifier
-    name: billchn.synology.me
-    description: 'Main diskstation.' # default=empty
-    url: 'https://billchn.synology.me:5001/' # URL to fetch
+  - id: bill-backup # unique identifier
+    name: schwi-dola.com
+    description: 'Minaduki Logistics diskstation.' # default=empty
+    url: 'https://schwi-dola.com:5001/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true  
     
   - id: seafile # unique identifier
