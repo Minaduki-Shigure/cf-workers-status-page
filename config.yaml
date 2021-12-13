@@ -35,7 +35,7 @@ monitors:
     
   - id: sub-con # unique identifier
     name: sub.minaduki.cn
-    description: 'Sub converter for clash at etc.' # default=empty
+    description: 'Sub converter for clash and etc.' # default=empty
     url: 'https://sub.minaduki.cn/sub' # URL to fetch
     method: GET # default=GET
     expectStatus: 400 # operational status, default=200
