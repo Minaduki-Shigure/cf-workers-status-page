@@ -15,6 +15,51 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
+  - id: www-minaduki-cn # unique identifier
+    name: www.minaduki.cn
+    description: 'Something has to be written.' # default=empty
+    url: 'https://www.minaduki.cn/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: minaduki-logistics # unique identifier
+    name: v4.logistics.minaduki.cn
+    description: 'Minaduki Logistics remote access gateway.' # default=empty
+    url: 'https://v4.logistics.minaduki.cn:5555/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true      
+    
+  - id: sub-con # unique identifier
+    name: sub.minaduki.cn
+    description: 'Sub converter for clash at etc.' # default=empty
+    url: 'https://sub.minaduki.cn/sub' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 400 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true    
+
+  - id: bill-ds # unique identifier
+    name: billchn.synology.me
+    description: 'Main diskstation.' # default=empty
+    url: 'https://billchn.synology.me:5001/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true  
+    
+  - id: seafile # unique identifier
+    name: seafile.minaduki.cn
+    description: 'Private seafile server.' # default=empty
+    url: 'https://seafile.minaduki.cn:8000/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true  
+
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
     description: 'You write code. They handle the rest.' # default=empty
