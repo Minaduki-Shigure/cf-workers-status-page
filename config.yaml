@@ -29,7 +29,7 @@ monitors:
     description: 'Minaduki Logistics remote access gateway.' # default=empty
     url: 'https://v4.logistics.minaduki.cn:5555/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
+    expectStatus: 202 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true      
     
