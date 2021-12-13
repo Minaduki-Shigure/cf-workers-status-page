@@ -43,11 +43,11 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
   - id: minaduki-logistics # unique identifier
-    name: v4.logistics.minaduki.cn
+    name: Minaduki Logistics
     description: 'Minaduki Logistics remote access gateway.' # default=empty
     url: 'https://v4.logistics.minaduki.cn:5555/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 202 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true      
     
@@ -70,7 +70,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true  
     
   - id: seafile # unique identifier
-    name: seafile.minaduki.cn
+    name: Private Seafile
     description: 'Private seafile server.' # default=empty
     url: 'https://seafile.minaduki.cn:8000/' # URL to fetch
     method: GET # default=GET
