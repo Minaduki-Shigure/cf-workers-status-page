@@ -52,9 +52,9 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
   - id: in-flame-team # unique identifier
-    name: www.in-flame-team.cn
+    name: www.in-flame-team.com
     description: 'First blog built by me.' # default=empty
-    url: 'https://www.in-flame-team.cn/' # URL to fetch
+    url: 'https://www.in-flame-team.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
