@@ -51,6 +51,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
+  - id: in-flame-team # unique identifier
+    name: www.in-flame-team.cn
+    description: 'First blog built by me.' # default=empty
+    url: 'https://www.in-flame-team.cn/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
 #  - id: minaduki-logistics # unique identifier
 #    name: Minaduki Logistics
 #    description: 'Minaduki Logistics remote access gateway' # default=empty
