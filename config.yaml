@@ -51,9 +51,9 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
-  - id: nju-overleaf # unique identifier
+  - id: nju-texpage # unique identifier
     name: tex.nju.edu.cn
-    description: 'Sharelatex deployed by NJU' # default=empty
+    description: 'Texpage purchased by NJU' # default=empty
     url: 'https://tex.nju.edu.cn/login' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
