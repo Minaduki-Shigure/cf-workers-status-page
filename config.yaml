@@ -78,23 +78,23 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
-  - id: wallabag-lightsail # unique identifier
-    name: wallabag.minaduki.cn
-    description: 'Read it later to read it never.' # default=empty
-    url: 'https://wallabag.minaduki.cn/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+ # - id: wallabag-lightsail # unique identifier
+ #   name: wallabag.minaduki.cn
+ #   description: 'Read it later to read it never.' # default=empty
+ #   url: 'https://wallabag.minaduki.cn/' # URL to fetch
+ #   method: GET # default=GET
+ #   expectStatus: 200 # operational status, default=200
+ #   followRedirect: true # should fetch follow redirects, default=false
+ #   linkable: true # allows the title to be a link, default=true
     
-  - id: miniflux-lightsail # unique identifier
-    name: miniflux.minaduki.cn
-    description: 'What is RSS?' # default=empty
-    url: 'https://miniflux.minaduki.cn/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
+ # - id: miniflux-lightsail # unique identifier
+ #   name: miniflux.minaduki.cn
+ #   description: 'What is RSS?' # default=empty
+ #   url: 'https://miniflux.minaduki.cn/' # URL to fetch
+ #   method: GET # default=GET
+ #   expectStatus: 200 # operational status, default=200
+ #   followRedirect: true # should fetch follow redirects, default=false
+ #   linkable: true # allows the title to be a link, default=true
     
   - id: in-flame-team # unique identifier
     name: www.in-flame-team.com
