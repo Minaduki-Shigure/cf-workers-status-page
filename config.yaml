@@ -105,14 +105,14 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
-#  - id: minaduki-logistics # unique identifier
-#    name: Minaduki Logistics
-#    description: 'Minaduki Logistics remote access gateway' # default=empty
-#    url: 'https://v4.logistics.minaduki.cn:5555/' # URL to fetch
-#    method: GET # default=GET
-#    expectStatus: 200 # operational status, default=200
-#    followRedirect: true # should fetch follow redirects, default=false
-#    linkable: false # allows the title to be a link, default=true      
+ - id: minaduki-logistics # unique identifier
+   name: Minaduki Logistics
+   description: 'Minaduki Logistics remote access gateway' # default=empty
+   url: 'https://v4.logistics.minaduki.cn:5555/' # URL to fetch
+   method: GET # default=GET
+   expectStatus: 200 # operational status, default=200
+   followRedirect: true # should fetch follow redirects, default=false
+   linkable: false # allows the title to be a link, default=true      
 
 #  - id: bill-backup # unique identifier
 #    name: schwi-dola.com
