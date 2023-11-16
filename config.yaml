@@ -34,11 +34,11 @@ monitors:
     linkable: false # allows the title to be a link, default=true
     
   - id: sub-con # unique identifier
-    name: sub.minaduki.cn
+    name: sub.byminaduki.com
     description: 'Sub converter for clash and etc.' # default=empty
-    url: 'https://sub.minaduki.cn/sub' # URL to fetch
+    url: 'https://sub.byminaduki.com/version' # URL to fetch
     method: GET # default=GET
-    expectStatus: 400 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: flase # allows the title to be a link, default=true
     
